@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.3/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./script.css" />
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>Scatterplot Grtaph</title>
+  </head>
+  <body>
+    <svg id="canvas">
+      <text id="title" x="80" y="25">
+        Doping in Professional Bicycle Racing
+      </text>
+    </svg>
+    <div id="legend">
+      Year(X-axis) vs Time(Y-axis)<br />
+      Blue = Doping Allegation<br />
+      Green = No Doping Allegations
+    </div>
+    <div id="tooltip"></div>
+
+    <script type="text/babel" src="./script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+  </body>
+</html>

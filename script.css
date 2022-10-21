@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 100%;
+}
+
+svg {
+  background-color: white;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.dot:hover {
+  fill: black;
+}
+
+g {
+  color: black;
+}
+
+#title {
+  font-size: 30px;
+  fill: #360202;
+  text-transform: uppercase;
+}
+
+#legend {
+  margin-top: 5px;
+  color: #360202;
+  font-size: 20px;
+  text-align: center;
+}
+
+#tooltip {
+  visibility: hidden;
+  height: auto;
+  width: auto;
+  margin-top: 5px;
+  color: #030830;
+  font-size: 23px;
+  margin-bottom: 5px;
+}
